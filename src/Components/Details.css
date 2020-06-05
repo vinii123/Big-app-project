@@ -1,0 +1,140 @@
+.Deatils-full{
+    background-color: aliceblue;
+    border: 30px solid lightskyblue ;
+    text-align: right;
+    margin: 0px;
+    padding: 1%;
+    display: grid;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: azure;
+  overflow: auto;
+  height: 50px;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color:black;
+  font-size: 25px;
+}
+
+.icon-bar a:hover {
+  background-color: white;
+}
+.search-bar{
+    display: contents;
+    margin: auto;
+}
+.myInput1 {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  float: left;
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  width: 510px;
+}
+.Input1{
+    display: grid;
+}
+.myTable1 {
+  border-collapse: collapse;
+  width: 535px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.myTable1 th, .myTable1 td {
+  text-align: left;
+  padding: 12px;
+}
+
+.myTable1 tr {
+  /* border-bottom: 1px solid #ddd; */
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  background-color: #fff;
+}
+
+
+
+.active {
+  background-color: blue;
+  color: white;
+}
+
+.Input2{
+    display: grid;
+    margin-left: 650px;
+    margin-inline-start: auto;
+}
+.myInput2 {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  float: left;
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  width: 510px;
+  margin-bottom: 340px;
+  margin-top: -450px;
+  height: 16px;
+}
+
+.myTable2 {
+  border-collapse: collapse;
+  width: 535px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  margin-top: -408px;
+}
+
+.myTable2 th, .myTable2 td {
+  text-align: left;
+  padding: 12px;
+}
+
+.myTable2 tr {
+  /* border-bottom: 1px solid #ddd; */
+}
+
+
+
+.active {
+  background-color: blue;
+  color: white;
+}
+
+.button{
+    display: inline-block;
+    margin-right: 575px;
+    margin-top: -240px;
+}
+
+.button2{
+    display: block;
+    margin-left: 596px;
+    margin-top: 25px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.button-active{
+    display: block;
+    margin-left: 596px;
+    margin-top: 25px;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #fff;
+}
